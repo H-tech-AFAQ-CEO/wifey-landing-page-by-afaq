@@ -60,7 +60,7 @@ export default function Page() {
       </header>
 
       <section id="top" className="hero-section">
-        <div className="site-shell grid items-center gap-12 lg:grid-cols-[1fr_0.95fr] lg:gap-16">
+        <div className="site-shell grid items-center gap-12 md:grid-cols-[1fr_0.95fr] md:gap-10 lg:gap-16">
           <div className="relative z-10">
             <p className="eyebrow"><Sparkles size={15} /> More than a clean</p>
             <h1>More time for <em>your</em> life.</h1>
@@ -71,7 +71,15 @@ export default function Page() {
             </div>
             <div className="trust-line"><div className="avatar-stack"><span>J</span><span>M</span><span>A</span><span>+</span></div><span><strong>Loved by local families</strong><br /><Star size={13} fill="currentColor" /> <Star size={13} fill="currentColor" /> <Star size={13} fill="currentColor" /> <Star size={13} fill="currentColor" /> <Star size={13} fill="currentColor" /> <small>5.0 from our clients</small></span></div>
           </div>
-          <div className="hero-image-wrap"><div className="hero-image" role="img" aria-label="A smiling household helper folding fresh laundry in a bright home" /><div className="hero-note"><HeartHandshake size={20} /><span><strong>We&apos;ve got this.</strong><br />Your home is in good hands.</span></div></div>
+          <div className="hero-image-wrap hero-reveal">
+            <div className="hero-image-frame">
+              <img className="hero-image" src="/images/wifey-premium-kitchen.png" alt="A smiling Hire a Wifey helper caring for a bright coastal home" />
+              <div className="hero-image-glow" aria-hidden="true" />
+              <div className="hero-badge hero-badge-top"><Sparkles size={14} /><span>Thoughtful<br /><strong>home care</strong></span></div>
+              <div className="hero-badge hero-badge-bottom"><HeartHandshake size={17} /><span>Trusted by<br /><strong>local families</strong></span></div>
+            </div>
+            <div className="hero-note"><HeartHandshake size={20} /><span><strong>We&apos;ve got this.</strong><br />Your home is in good hands.</span></div>
+          </div>
         </div>
       </section>
 

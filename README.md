@@ -144,7 +144,8 @@ README.md          Project documentation and launch handover notes
 - TypeScript
 - Tailwind CSS 4
 - Lucide React icons
-- Vercel Analytics package included in the project
+  - Privacy-conscious analytics package included in the project
+
 - Local static image assets
 
 ## Local development
@@ -168,17 +169,15 @@ npm run start  # Start the production server
 
 ## Deployment
 
-This project is connected to the v0/Vercel workflow. The project can be reviewed and published from the Vercel project interface. Before publishing for the client, complete the production work listed above and confirm that all contact and booking destinations are live.
+This project is ready to be connected to the client&apos;s preferred hosting and deployment workflow. Before publishing for the client, complete the production work listed above and confirm that all contact and booking destinations are live.
 
 ## Important prototype note
 
 This version is intentionally presented as a high-fidelity marketing prototype. It includes realistic sample data and polished interactions to demonstrate the finished direction to the client, but it should not be treated as a production booking system until the enquiry workflow, legal content, business details, and final assets have been connected and approved.
 
-## v0 project
+## Project ownership
 
-Continue editing the project through the connected v0 project:
-
-[Continue working on Hire a Wifey in v0](https://v0.app/chat/projects/prj_nKA4lWAexQfvABpe3y8Z56vAcVqT)
+This website was developed by **Afaq Ahmad** for Hire a Wifey. The client owns the approved business content, brand assets, imagery, and final website materials, subject to the licensing and ownership checks listed above.
 
 ## License
 
